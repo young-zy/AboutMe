@@ -28,8 +28,7 @@
         android:id="@+id/name_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAlignment="center"
         android:text="@string/name"
-        android:textColor="@android:color/black"
-        android:textSize="@dimen/text_size" />
+        android:textAlignment="center"
+        style="@style/NameStyle" />
 </androidx.appcompat.widget.LinearLayoutCompat>
